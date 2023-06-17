@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+.div-1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fdd11e;
+}
+
+.div-2 {
+  position: absolute;
+  bottom: 0;
+  background-color: #ff555a;
+  width: 100%;
+  height: 150px;
+}
+.div-3 {
+  position: absolute;
+  background-color: #fdd11e;
+  bottom: 25%;
+  right: 50%;
+  transform: translateX(50%);
+  height: 300px;
+  width: 300px;
+  rotate: 45deg;
+}
